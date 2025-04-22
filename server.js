@@ -1,6 +1,6 @@
 const http = require('http');
 
-// Create our data
+// Create data
 const movies = [
     { id: 1, title: "Sicario", year: 2015, director: "Denis Villeneuve", genre: "Crime" },
     { id: 2, title: "Arrival", year: 2016, director: "Denis Villeneuve", genre: "Sci-Fi" },
@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
 
     else if (method === 'POST') {
 
-      const newMovie = { id: movies.length + 1, title: "New Movie", year: 2023, director: "New Director", genre: "New Genre" };
+      const newMovie = { id: movies.length + 1, title: "Sicario: Day of the Soldado", year: 2018, director: "Stefano Sollima", genre: "Crime" };
       movies.push(newMovie);
       
       res.statusCode = 200;
@@ -93,7 +93,7 @@ const server = http.createServer((req, res) => {
     } 
     // POST - Create a new series
     else if (method === 'POST') {
-      const newSeries = { id: series.length + 1, title: "New Series", seasons: 1, creator: "New Creator", genre: "New Genre" };
+    const newSeries = { id: series.length + 1, title: "Suits", seasons: 9, creator: "Aaron Korsh", genre: "Legal Drama" };
       series.push(newSeries);
       
       res.statusCode = 200;
@@ -139,7 +139,7 @@ const server = http.createServer((req, res) => {
     } 
     // POST - Create a new song
     else if (method === 'POST') {
-      const newSong = { id: songs.length + 1, title: "New Song", artist: "New Artist", year: 2023, genre: "New Genre" };
+    const newSong = { id: songs.length + 1, title: "Masithokoze", artist: "Dj Stokie Masithokoze", year: 2024, genre: "House" };
       songs.push(newSong);
       
       res.statusCode = 200;
