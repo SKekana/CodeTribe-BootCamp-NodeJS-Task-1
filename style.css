@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+}
+h3 {
+    color: #3498db;
+}
+code {
+    background-color: #f8f8f8;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+pre {
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.endpoint {
+    margin-bottom: 30px;
+    border-left: 4px solid blue;
+    padding-left: 15px;
+}
+.method {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.delete { color: red; }

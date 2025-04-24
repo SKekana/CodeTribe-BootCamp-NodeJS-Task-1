@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Sicario",
+    "year": 2015,
+    "director": "Denis Villeneuve",
+    "genre": "Crime"
+  },
+  {
+    "id": 2,
+    "title": "Arrival",
+    "year": 2016,
+    "director": "Denis Villeneuve",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 3,
+    "title": "Gattaca",
+    "year": 1997,
+    "director": "Andrew Niccol",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 4,
+    "title": "Sky Blue",
+    "year": 2003,
+    "director": "Moon-saeng Kim",
+    "genre": "Animation"
+  },
+  {
+    "id": 5,
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "Wachowski Sisters",
+    "genre": "Sci-Fi"
+  }
+]

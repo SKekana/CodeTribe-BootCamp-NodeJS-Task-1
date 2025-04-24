@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Server API Documentation</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Media Server API Documentation</h1>
+    <p>This is a simple API for managing a collection of movies, TV series, and songs.</p>
+
+    <h2>Base URL</h2>
+    <code>http://localhost:3000</code>
+
+    <h2>Endpoints</h2>
+
+    <div class="endpoint">
+        <h3>Movies</h3>
+        <p><span class="method get">GET</span> <code>/movies</code> - Get all movies</p>
+        <p>Returns a list of all movies in the database.</p>
+        <p>Example response:</p>
+        <pre>{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Sicario",
+      "year": 2015,
+      "director": "Denis Villeneuve",
+      "genre": "Crime"
+    },
+    ...
+  ]
+}</pre>
+
+        <p><span class="method post">POST</span> <code>/movies</code> - Add a new movie</p>
+        <p>Adds a new movie to the database.</p>
+        <p>Example request body:</p>
+        <pre>{
+  "title": "Inception",
+  "year": 2010,
+  "director": "Christopher Nolan",
+  "genre": "Sci-Fi"
+}</pre>
+
+        <p><span class="method put">PUT</span> <code>/movies/:id</code> - Update a movie</p>
+        <p>Updates an existing movie in the database.</p>
+        <p>Example request body:</p>
+        <pre>{
+  "title": "Updated Movie Title",
+  "year": 2022
+}</pre>
+
+        <p><span class="method delete">DELETE</span> <code>/movies/:id</code> - Delete a movie</p>
+        <p>Deletes a movie from the database.</p>
+    </div>
+
+    <div class="endpoint">
+        <h3>TV Series</h3>
+        <p><span class="method get">GET</span> <code>/series</code> - Get all TV series</p>
+        <p>Returns a list of all TV series in the database.</p>
+        <p>Example response:</p>
+        <pre>{
+  "series": [
+    {
+      "id": 1,
+      "title": "Black Mirror",
+      "seasons": 6,
+      "creator": "Charlie Brooker",
+      "genre": "Sci-Fi"
+    },
+    ...
+  ]
+}</pre>
+
+        <p><span class="method post">POST</span> <code>/series</code> - Add a new TV series</p>
+        <p>Adds a new TV series to the database.</p>
+        <p>Example request body:</p>
+        <pre>{
+  "title": "Breaking Bad",
+  "seasons": 5,
+  "creator": "Vince Gilligan",
+  "genre": "Drama"
+}</pre>
+
+        <p><span class="method put">PUT</span> <code>/series/:id</code> - Update a TV series</p>
+        <p>Updates an existing TV series in the database.</p>
+        <p>Example request body:</p>
+        <pre>{
+  "title": "Updated Series Title",
+  "seasons": 8
+}</pre>
+
+        <p><span class="method delete">DELETE</span> <code>/series/:id</code> - Delete a TV series</p>
+        <p>Deletes a TV series from the database.</p>
+    </div>
+
+    <div class="endpoint">
+        <h3>Songs</h3>
+        <p><span class="method get">GET</span> <code>/songs</code> - Get all songs</p>
+        <p>Returns a list of all songs in the database.</p>
+        <p>Example response:</p>
+        <pre>{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Jerusalema",
+      "artist": "Master KG ft. Nomcebo Zikode",
+      "year": 2019,
+      "genre": "House"
+    },
+    ...
+  ]
+}</pre>
+
+        <p><span class="method post">POST</span> <code>/songs</code> - Add a new song</p>
+        <p>Adds a new song to the database.</p>
+        <p>Example request body:</p>
+        <pre>{
+  "title": "New Song",
+  "artist": "Artist Name",
+  "year": 2023,
+  "genre": "Pop"
+}</pre>
+
+        <p><span class="method put">PUT</span> <code>/songs/:id</code> - Update a song</p>
+        <p>Updates an existing song in the database.</p>
+        <p>Example request body:</p>
+        <pre>{
+  "title": "Updated Song Title",
+  "year": 2022
+}</pre>
+
+        <p><span class="method delete">DELETE</span> <code>/songs/:id</code> - Delete a song</p>
+        <p>Deletes a song from the database.</p>
+    </div>
+
+    <footer>
+        <p>Created as part of CodeTribe BootCamp NodeJS Task 2 - Simple Media Server API</p>
+        <p>Last updated: April 24, 2025</p>
+    </footer>
+</body>
+</html>

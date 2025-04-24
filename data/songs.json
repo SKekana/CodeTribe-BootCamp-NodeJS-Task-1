@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Jerusalema",
+    "artist": "Master KG ft. Nomcebo Zikode",
+    "year": 2019,
+    "genre": "House"
+  },
+  {
+    "id": 2,
+    "title": "Drive",
+    "artist": "Black Coffee & David Guetta ft. Delilah Montagu",
+    "year": 2018,
+    "genre": "House"
+  },
+  {
+    "id": 3,
+    "title": "Banomoya",
+    "artist": "Prince Kaybee ft. Busiswa & TNS",
+    "year": 2018,
+    "genre": "House"
+  },
+  {
+    "id": 4,
+    "title": "You Need Me",
+    "artist": "Black Coffee ft Sun El Musician, Maxine Ashley ",
+    "year": 2021,
+    "genre": "House"
+  },
+  {
+    "id": 5,
+    "title": "Umlilo",
+    "artist": "DJ Zinhle ft. Mvzzle & Rethabile",
+    "year": 2019,
+    "genre": "House"
+  }
+]
